@@ -20,6 +20,7 @@ local plugins = {
                 "eslint-lsp",
                 "prettier",
                 "jdtls",
+                "lua-language-server",
             }
         },
     },
@@ -41,6 +42,7 @@ local plugins = {
            require('rust-tools').setup(opts)
         end,
     },
+    { "nvim-neotest/nvim-nio" },
     {
         "rcarriga/nvim-dap-ui",
         event = "VeryLazy",
